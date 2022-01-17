@@ -1,0 +1,23 @@
+[
+  {
+    "id":1,
+    "name": "Stive Jobs",
+    "password": "Stive55"
+  },
+  {
+    "id":2,
+    "name": "Ilon Mask",
+    "password": "ilon333"
+  },
+  {
+    "id":3,
+    "name": "Teacher3",
+    "password": "sdteacher"
+  },
+  {
+    "id":4,
+    "name": "Teacher4",
+    "password": "teacher32"
+  }
+
+]

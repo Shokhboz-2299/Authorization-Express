@@ -1,0 +1,13 @@
+[
+  {
+    "id":1,
+    "name": "web dasturlash",
+    "password": 12345
+  },
+  {
+    "id":2,
+    "name": "Grafik dizayn",
+    "password": 54321
+  }
+
+]
