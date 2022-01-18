@@ -27,8 +27,7 @@ const verifyToken = (req, res, next) => {
       e.id = i;
     })
     const user1 = allUsers.find(e => e.name==user)
-    console.log(allUsers);
-    console.log(user1);
+   
     if(!user1){
       res.status(401).send({
         status: 401,
@@ -55,11 +54,11 @@ app.post('/login', (req, res) => {
   allUsers.map((e,i) => {
     e.id = i;
   })
-  // console.log(allUsers);
+  
   const user = allUsers.find(e => e.name == username && e.password == password)
 
   const accessToken = jwt.sign({user:user.name}, SECRET_KEY);
-  // console.log(accessToken);
+
   if(!user){
     res.sendStatus(401)
   }
